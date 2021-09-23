@@ -7,13 +7,13 @@
     tools:context=".PessoasActivity">
 
     <EditText
-        android:id="@+id/txtNome"
+        android:id="@+id/txtEntradaNomeAgenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nome"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/txtIdade"
+        app:layout_constraintBottom_toTopOf="@+id/txtEntradaTelefoneAgenda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.649" />
 
     <EditText
-        android:id="@+id/txtIdade"
+        android:id="@+id/txtEntradaTelefoneAgenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="76dp"
@@ -45,7 +45,7 @@
         app:layout_constraintVertical_bias="0.516" />
 
     <Button
-        android:id="@+id/btImprimir"
+        android:id="@+id/btProximoAgenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -58,12 +58,12 @@
         app:layout_constraintVertical_bias="0.15" />
 
     <Button
-        android:id="@+id/btSalvar"
+        android:id="@+id/btSalvarAgenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="Salvar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btImprimir" />
+        app:layout_constraintTop_toBottomOf="@+id/btProximoAgenda" />
 </androidx.constraintlayout.widget.ConstraintLayout>

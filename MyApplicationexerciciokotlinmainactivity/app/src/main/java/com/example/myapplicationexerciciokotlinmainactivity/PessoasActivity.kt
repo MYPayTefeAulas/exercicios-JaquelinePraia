@@ -17,26 +17,26 @@ class PessoasActivity : AppCompatActivity() {
 
         binding = ActivityPessoasBinding.inflate(layoutInflater)
 
-        binding.btImprimir.setOnClickListener {
-            binding.txtSaida.text = imprimePessoa()
-        }
-        binding.btSalvar.setOnClickListener {
-            nome = binding.txtNome.text.toString()
-            binding.txtNome.text.clear()
-            idade = binding.txtIdade.text.toString().toInt()
-            binding.txtIdade.text.clear()
+//        binding.btImprimir.setOnClickListener {
+//            binding.txtSaida.text = imprimePessoa()
+//        }
+//        binding.btSalvar.setOnClickListener {
+//            nome = binding.txtNome.text.toString()
+//            binding.txtNome.text.clear()
+//            idade = binding.txtIdade.text.toString().toInt()
+//            binding.txtIdade.text.clear()
 
-            val pessoa = Pessoa (nome, idade)
-            listaPessoas.add(pessoa)
+//            val pessoa = Pessoa (nome, idade)
+//            listaPessoas.add(pessoa)
         }
-        setContentView(binding.root)
-    }
-    fun imprimePessoa(): String{
-        if (indiceAtual>= listaPessoas.size)
-            indiceAtual = 0
-        val pessoaAtual = listaPessoas[indiceAtual]
-        indiceAtual ++
-        return "Nome: ${pessoaAtual.nome} , Idade: ${pessoaAtual.idade}"
-    }
+////        setContentView(binding.root)
+//    }
+////    fun imprimePessoa(): String{
+////        if (indiceAtual>= listaPessoas.size)
+////            indiceAtual = 0
+////        val pessoaAtual = listaPessoas[indiceAtual]
+////        indiceAtual ++
+////        return "Nome: ${pessoaAtual.nome} , Idade: ${pessoaAtual.idade}"
+////    }
 
 }
