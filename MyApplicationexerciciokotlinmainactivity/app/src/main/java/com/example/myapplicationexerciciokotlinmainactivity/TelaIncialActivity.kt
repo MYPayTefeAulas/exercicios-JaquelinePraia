@@ -29,6 +29,10 @@ class TelaIncialActivity : AppCompatActivity() {
             val intent = Intent(this,AgendaActivity:: class.java)
             startActivity(intent)
         }
+        binding.btAgenda.setOnClickListener{
+            val intent = Intent(this,DadoActivity :: class.java)
+            startActivity(intent)
+        }
         setContentView(binding.root)
     }
 }

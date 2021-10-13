@@ -67,4 +67,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btAbrirExGreeter"
         app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/btDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dado"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="470dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

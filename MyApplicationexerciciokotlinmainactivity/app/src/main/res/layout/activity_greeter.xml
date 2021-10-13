@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btTrocar"
+        android:id="@+id/btTrocarGreeter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
@@ -44,7 +44,7 @@
         app:layout_constraintVertical_bias="0.38" />
 
     <Button
-        android:id="@+id/btImprimirProximo"
+        android:id="@+id/btImprimirGreeter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/txtSaida"
+        android:id="@+id/txtSaidaPessoa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -64,6 +64,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btImprimirProximo"
+        app:layout_constraintTop_toBottomOf="@+id/btImprimirGreeter"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

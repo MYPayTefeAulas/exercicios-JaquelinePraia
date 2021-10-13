@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
-        binding.btTrocar.setOnClickListener {
+        binding.btTrocarGreeter.setOnClickListener {
 //            binding.txtHello.text = novotexto()
 //            binding.txtHello.text = textoDaEntrada()
 //            binding.txtHello.text = calculardobro()

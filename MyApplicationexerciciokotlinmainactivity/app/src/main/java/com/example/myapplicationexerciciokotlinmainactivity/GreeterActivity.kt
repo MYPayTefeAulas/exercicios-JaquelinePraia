@@ -30,10 +30,10 @@ class GreeterActivity : AppCompatActivity() {
 //        -----------------------------------------------------------
 //        configuração dos botões
 
-        binding.btImprimirProximo.setOnClickListener {
+        binding.btImprimirGreeter.setOnClickListener {
             val nomeAtual = listaNomes[indiceAtual]
-//            binding.txtSaida.text = greeterAtual.greet(Pessoa)
-            binding.txtSaida.text = greeterAtual.greet(nomeAtual)
+//            binding.txtNumGreeter.text = greeterAtual.greet(Pessoa)
+            binding.txtNumGreeter.text = greeterAtual.greet(nomeAtual)
 
 //            when (greeterAtual){
 //                1-> binding.txtSaida.text = greeter1.greet(nomeAtual)
@@ -45,7 +45,7 @@ class GreeterActivity : AppCompatActivity() {
                 indiceAtual ++
             }
         }
-       binding.btTrocar.setOnClickListener {
+       binding.btTrocarGreeter.setOnClickListener {
            if (greeterAtual == greeter1){
                greeterAtual = greeter2
                binding.txtNumGreeter.text = "2"

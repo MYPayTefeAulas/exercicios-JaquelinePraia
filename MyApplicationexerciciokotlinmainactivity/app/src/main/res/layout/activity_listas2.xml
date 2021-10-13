@@ -7,7 +7,7 @@
     tools:context=".ListasActivity2">
 
     <EditText
-        android:id="@+id/txtEntrada"
+        android:id="@+id/btEntradaLista2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -20,22 +20,22 @@
         app:layout_constraintVertical_bias="0.098" />
 
     <Button
-        android:id="@+id/btAnalisar"
+        android:id="@+id/btListaAnalisar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="Analisar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtSaida" />
+        app:layout_constraintTop_toBottomOf="@+id/txtSaidaPessoa" />
 
     <TextView
-        android:id="@+id/txtSaida"
+        android:id="@+id/txtSaidaPessoa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEntrada" />
+        app:layout_constraintTop_toBottomOf="@+id/btEntradaLista2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

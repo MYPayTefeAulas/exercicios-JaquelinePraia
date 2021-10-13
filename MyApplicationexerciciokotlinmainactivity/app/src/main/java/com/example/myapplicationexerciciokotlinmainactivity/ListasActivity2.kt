@@ -14,8 +14,8 @@ class ListasActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityListas2Binding.inflate (layoutInflater)
-        binding.btAnalisar.setOnClickListener {
-            binding.txtSaida.text = analisar(binding.txtEntrada.text.toString())
+        binding.btEntradaLista2.setOnClickListener {
+        binding.btListaAnalisar2.text = analisar(binding.btEntradaLista2.text.toString())
         }
         setContentView(binding.root)
 
